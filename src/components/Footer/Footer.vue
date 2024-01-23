@@ -1,5 +1,5 @@
 <template>
-    <footer id="contact" class="mt-[156px] bg-black">
+    <footer id="contact" class="mt-[156px] lg:mt-[190px] bg-black">
         <div class="container lg:ml-[30%] lg:w-[70%]">
             <div class="flex justify-between lg:justify-start lg:gap-[100px]">
                 <div class="p-4">

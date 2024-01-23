@@ -3,9 +3,9 @@
         <div class="container mx-auto">
             <h1 class="text-[#E3E7F2] font-jost font-[700] w-[85%] lg:w-[50%] mx-auto px-[16px] lg:px-0 text-[18px] lg:text-[28px] xl:text-[40px]">{{ $t('translation.sectionTwo.one') }} <span class="text-[#454648]">{{ $t('translation.sectionTwo.two') }}</span></h1>
             <div class="absolute w-full my-[70px] lg:my-[75px] xl:my-[100px]">
-                <img src="../../assets/images/background/Group.svg" alt="" class="w-[197px] lg:w-[50%] mx-auto lg:mx-[25%] 2xl:mx-[17%]">
+                <img src="../../assets/images/background/Group.svg" alt="" class="w-[197px] lg:w-[704px] mx-auto lg:mx-[170px] xl:mx-[300px] 2xl:mx-[400px]">
             </div>
-            <TextCarusel class="mt-[90px] lg:mt-[200px] xl:mt-[220px] 2xl:mt-[350px]"/>
+            <TextCarusel class="mt-[90px] lg:mt-[250px] 2xl:mt-[280px]"/>
         </div>
     </section>
 </template>

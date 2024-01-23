@@ -1,6 +1,6 @@
 <template>
     <section id="client">
-        <div class="container mx-auto mt-[120px] lg:mt-[350px] xl:mt-[380px] 2xl:mt-[550px]">
+        <div class="container mx-auto mt-[100px] lg:mt-[450px] xl:mt-[380px] 2xl:mt-[450px]">
             <TextCaruselThree class=""/>
         </div>
     </section>

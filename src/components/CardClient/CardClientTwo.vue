@@ -1,5 +1,5 @@
 <template>
-    <div class=" container mx-auto relative mt-[130px] lg:mt-[250px] 2xl:mt-[450px]">
+    <div class=" container mx-auto relative mt-[120px] lg:mt-[250px] 2xl:mt-[350px]">
 
         <div class="flex justify-end p-4 items-center gap-4 md:gap-0 my-[32px] md:my-[56px] xl:my-[48px] xl:mr-[60px] 2xl:mr-[60px]">
             <div class="md:w-[10%] lg:w-[10%] xl:w-[8%] 2xl:w-[6%] flex items-center gap-[20px]">
