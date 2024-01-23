@@ -1,5 +1,5 @@
 <template>
-    <section class="">
+    <section id="about">
       <div @click="open1">
         <Modal class="absolute w-[100px] lg:w-[210px] xl:w-[250px] lg:h-[210px] xl:h-[250px] border grid justify-between p-[8px] lg:p-[16px] mt-[270px]  ml-[12%] bg-black border-[#E3E7F2] cursor-pointer lg:mt-[320px] lg:ml-[25.5%] xl:mt-[320px] xl:ml-[31.3%] 2xl:mt-[400px] 2xl:ml-[39.5%]"/>
       </div>

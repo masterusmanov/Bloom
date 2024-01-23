@@ -28,7 +28,7 @@
     <div class="container mx-auto">
       <SectionOne class=""/>
       <SectionTwo/>
-      <img src="../assets/images/background/service.png" alt="" class="absolute w-[125px] lg:w-[250px] xl:w-[400px] mt-[50px] ml-[170px] lg:ml-[700px] lg:mt-[150px] xl:ml-[800px] 2xl:ml-[1150px] 2xl:mt-[250px]">
+      <img src="../assets/images/background/service.png" alt="" class="absolute w-[125px] lg:w-[250px] xl:w-[400px] mt-[50px] ml-[170px] lg:ml-[700px] lg:mt-[150px] xl:ml-[800px] 2xl:ml-[1000px] 2xl:mt-[250px]">
       <SectionThree/>
       <img src="../assets/images/background/plan.svg" alt="" class="absolute w-[70%] lg:w-[50%] mt-[50px] ml-[15%] lg:ml-[25%] lg:mt-[150px] 2xl:mt-[200px]">
       <SectionFour/>
@@ -37,10 +37,16 @@
       <SectionFive/>
       <CardClientTwo/>
       <div @click="open1">
-        <Modal class="absolute w-[100px] lg:w-[210px] xl:w-[250px] lg:h-[210px] xl:h-[250px] border grid justify-between p-[8px] lg:p-[16px] mt-[125px] ml-[60%] bg-black border-[#E3E7F2] cursor-pointer lg:mt-[100px] lg:ml-[70%]"/>
+        <Modal class="absolute w-[100px] lg:w-[210px] xl:w-[250px] lg:h-[210px] xl:h-[250px] border grid justify-between p-[8px] lg:p-[16px] mt-[125px] ml-[60%] bg-black border-[#E3E7F2] cursor-pointer lg:mt-[100px] xl:ml-[1000px] 2xl:ml-[1200px]"/>
       </div>
       <ModalOne  @close="close2" v-if="modal2"/>
       <Footer/>
     </div>
   </main>
 </template>
+
+<style lang="scss" scoped>
+  *{
+    scroll-behavior: smooth;
+  }
+</style>

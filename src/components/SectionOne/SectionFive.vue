@@ -1,5 +1,5 @@
 <template>
-    <section >
+    <section id="client">
         <div class="container mx-auto mt-[120px] lg:mt-[350px] xl:mt-[380px] 2xl:mt-[550px]">
             <TextCaruselThree class=""/>
         </div>

@@ -1,15 +1,15 @@
 <template>
-    <footer class="mt-[156px] bg-black">
+    <footer id="contact" class="mt-[156px] bg-black">
         <div class="container lg:ml-[30%] lg:w-[70%]">
-            <div class="flex justify-between lg:justify-start lg:gap-[300px]">
+            <div class="flex justify-between lg:justify-start lg:gap-[100px]">
                 <div class="p-4">
                     <img src="../../assets/images/Logo.png" alt="Logo" class="w-[26px]">
                     <div class="grid text-[16px] gap-2 my-[30px] lg:text-[24px]">
-                        <router-link to="#about" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.one')}}</router-link>
-                        <router-link to="#about" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.two')}}</router-link>
-                        <router-link to="#about" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.three')}}</router-link>
-                        <router-link to="#about" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.four')}}</router-link>
-                        <router-link to="#about" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.five')}}</router-link>
+                        <a href="#about" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.one')}}</a>
+                        <a href="#services" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.two')}}</a>
+                        <a href="#portfolio" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.three')}}</a>
+                        <a href="#client" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.four')}}</a>
+                        <a href="#contact" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.five')}}</a>
                     </div>
                 </div>
                 <div class="mt-[115px] text-right lg:hidden ">
@@ -30,7 +30,7 @@
                 <a href="#"><i class='bx bxl-facebook border p-[14px] hover:bg-black hover:text-[#E3E7F2]'></i></a>
                 <a href="#"><i class='bx bxl-vk border p-[14px] hover:bg-black hover:text-[#E3E7F2]'></i></a>
             </div>
-            <div class="mt-[60px] text-center hidden lg:flex justify-between ">
+            <div class="mt-[60px] hidden lg:flex justify-between ">
                 <p class="w-[92%] font-[500] py-[10px] font-jost text-[#E3E7F2] text-[20px]">+998 (90) 985 64 89</p>
                 <p class="w-[92%] font-[500] py-[10px] font-jost text-[#E3E7F2] text-[20px]">{{$t('translation.footer.one')}}</p>
                 <p class="w-[92%] font-[500] py-[10px] font-jost text-[#E3E7F2] text-[20px]">info@bloom-arc@gmail.com</p>
