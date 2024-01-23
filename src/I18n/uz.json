@@ -1,0 +1,34 @@
+{
+    "translation": {
+        "language": "O'z",
+        "navbar": {
+            "one": "Biz haqimizda",
+            "two": "Xizmatlar",
+            "three": "Portfolio",
+            "four": "Mijozlar",
+            "five": "Kontaktlar"
+        },
+        "modal": {
+            "one": "Buyurtma",
+            "two": "loyiha"
+        },
+        "sectionTwo": {
+            "one": "Ohangni belgilaydigan arxitektura: bizning agentligimiz innovatsion va barqaror binolarni yaratishga ixtisoslashgan,",
+            "two": "zamonaviy tendentsiya va texnologiyalarni o'zida mujassam etgan."
+        },
+        "service": "XIZMATLAR",
+        "table": {
+            "one": "Arxitektura muhandisligi",
+            "two": "Interer dizayni",
+            "three": "Shahar muhitini loyihalash",
+            "four": "Landshaft dizayni",
+            "five": "Loyiha hujjatlari",
+            "six": "Muallif nazorati"
+        },
+        "serviceTwo": "PORTFOLIO",
+        "cardclient": {
+            "one": "Oynali labirint",
+            "two": "oyna devorlari bilan turar-joy majmuasi"
+        }
+    }
+}

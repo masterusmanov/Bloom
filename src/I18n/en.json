@@ -1,0 +1,34 @@
+{
+    "translation": {
+        "language": "Eng",
+        "navbar": {
+            "one": "About Us",
+            "two": "Services",
+            "three": "Portfolio",
+            "four": "Clients",
+            "five": "Contacts"
+        },
+        "modal": {
+            "one": "Order",
+            "two": "project"
+        },
+        "sectionTwo": {
+            "one": "Architecture that sets the tone: our agency specializes in creating innovative and sustainable buildings,",
+            "two": "which embody modern trends and technologies."
+        },
+        "service": "SERVICES",
+        "table": {
+            "one": "Architectural Engineering",
+            "two": "Interior Design",
+            "three": "Urban environment design",
+            "four": "Landscape design",
+            "five": "Project documentation",
+            "six": "Author's supervision"
+        },
+        "serviceTwo": "PORTFOLIO",
+        "cardclient": {
+            "one": "Mirror Maze",
+            "two": "residential complex with mirror walls"
+        }
+    }
+}
