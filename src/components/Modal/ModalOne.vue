@@ -1,6 +1,6 @@
 <template>
     <div @click="open" class="w-full h-[180vh] bg-[#1E1E1E] bg-opacity-20 top-0 right-0 left-0 flex justify-center items-center fixed z-50 border-none outline-none font-jost">
-        <div class="w-[90%] lg:w-[35%] 2xl:w-[30%] p-[24px] bg-black self-start mt-[50%] lg:mt-[20%] max-w-screen-md max-h-screen-xl">
+        <div class="w-[90%] lg:w-[35%] 2xl:w-[30%] p-[24px] bg-black self-start mt-[50%] lg:mt-[15%] max-w-screen-md max-h-screen-xl">
             <div class="flex justify-between  items-center h-[60px]">
                 <div class="w-[85%] flex items-center gap-2 md:w-[40%]">
                     <h2 class="text-[#E3E7F2] text-[24px] font-[600] font-jost">{{ $t('translation.modalOne.one') }}</h2>
