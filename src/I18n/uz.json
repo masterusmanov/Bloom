@@ -41,6 +41,17 @@
             "two": "Sizning ismingiz",
             "three": "Telefon raqami",
             "four": "So'rov qoldiring va biz siz bilan bog'lanamiz"
+        },
+        "modalTwo": {
+            "one": "Oynali labirint",
+            "two": "Render",
+            "three": "TAVSIF",
+            "four": "San'at va funksionallikning noyob kombinatsiyasini ifodalovchi innovatsion arxitektura loyihasi. Loyiha ko'zgu devorlardan iborat labirintni o'zida mujassam etgan bo'lib, cheksizlik effekti va makonning vizual kengayishini yaratadi.",
+            "five": "XIZMAT",
+            "six": "Arxitektura muhandisligi",
+            "seven": "MAYDON",
+            "eight": "MANZIL",
+            "nine": "BUYURTMACHI"
         }
     }
 }

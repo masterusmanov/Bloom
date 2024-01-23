@@ -2,7 +2,7 @@
     <div class=" container mx-auto relative mt-[130px] lg:mt-[250px] 2xl:mt-[350px]">
         <div class="slides-container  flex snap-x snap-mandatory overflow-hidden overflow-x-auto space-x-12 rounded scroll-smooth before:w-[45vw] before:shrink-0 after:w-[45vw] after:shrink-0 md:before:w-0 md:after:w-0" ref="slidesContainer">
             <div class="w-[200px] h-[300px] lg:h-[350px] xl:h-[400px] 2xl:h-[450px] grid  mx-auto md:w-[350px] lg:w-[325px] xl:w-[400px] 2xl:w-[490px] slide aspect-square  flex-shrink-0 snap-center overflow-hidden">
-                <img src="../../assets/images/portfolio/1.png" alt="" class="p-2 w-full h-[180px] lg:h-[250px] xl:h-[300px] 2xl:h-[350px]  object-cover">
+                <img @click="open" src="../../assets/images/portfolio/1.png" alt="" class="p-2 w-full h-[180px] lg:h-[250px] xl:h-[300px] 2xl:h-[350px]  object-cover">
                 <div class="text-center font-jost text-[#E3E7F2]">
                     <p class="text-[14px] font-[600]">- 01 -</p>
                     <h2 class="text-[16px] font-[600]">{{$t('translation.cardclient.one')}}</h2>
@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="w-[200px]  h-[300px] lg:h-[350px] xl:h-[400px] 2xl:h-[450px] grid  mx-auto md:w-[350px] lg:w-[325px] xl:w-[400px] 2xl:w-[490px] slide aspect-square  flex-shrink-0 snap-center overflow-hidden">
-                <img src="../../assets/images/portfolio/2.png" alt="" class="p-2 w-full h-[180px] lg:h-[250px] xl:h-[300px]  2xl:h-[350px] object-cover">
+                <img  @click="open" src="../../assets/images/portfolio/2.png" alt="" class="p-2 w-full h-[180px] lg:h-[250px] xl:h-[300px]  2xl:h-[350px] object-cover">
                 <div class="text-center font-jost text-[#E3E7F2]">
                     <p class="text-[14px] font-[600]">- 01 -</p>
                     <h2 class="text-[16px] font-[600]">{{$t('translation.cardclient.one')}}</h2>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="w-[200px]  h-[300px] lg:h-[350px] xl:h-[400px] 2xl:h-[450px] grid  mx-auto md:w-[350px] lg:w-[325px] xl:w-[400px] 2xl:w-[490px] slide aspect-square  flex-shrink-0 snap-center overflow-hidden">
-                <img src="../../assets/images/portfolio/3.png" alt="" class="p-2 w-full h-[180px] lg:h-[250px] xl:h-[300px]  2xl:h-[350px] object-cover">
+                <img  @click="open" src="../../assets/images/portfolio/3.png" alt="" class="p-2 w-full h-[180px] lg:h-[250px] xl:h-[300px]  2xl:h-[350px] object-cover">
                 <div class="text-center font-jost text-[#E3E7F2]">
                     <p class="text-[14px] font-[600]">- 01 -</p>
                     <h2 class="text-[16px] font-[600]">{{$t('translation.cardclient.one')}}</h2>
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="w-[200px]  h-[300px] lg:h-[350px] xl:h-[400px] 2xl:h-[450px] grid  mx-auto md:w-[350px] lg:w-[325px] xl:w-[400px] 2xl:w-[490px] slide aspect-square  flex-shrink-0 snap-center overflow-hidden">
-                <img src="../../assets/images/portfolio/1.png" alt="" class="p-2 w-full h-[180px] lg:h-[250px] xl:h-[300px]  2xl:h-[350px] object-cover">
+                <img  @click="open" src="../../assets/images/portfolio/1.png" alt="" class="p-2 w-full h-[180px] lg:h-[250px] xl:h-[300px]  2xl:h-[350px] object-cover">
                 <div class="text-center font-jost text-[#E3E7F2]">
                     <p class="text-[14px] font-[600]">- 01 -</p>
                     <h2 class="text-[16px] font-[600]">{{$t('translation.cardclient.one')}}</h2>
@@ -50,10 +50,22 @@
         </div>
        </div>
     </div>
+    <ModalOneTwo @close="close" v-if="modal1"/>
 </template>
 
 <script setup>
     import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
+    import ModalOneTwo from '../Modal/ModalOneTwo.vue';
+
+    const modal1 = ref(false);
+
+    const open = () => {
+        modal1.value = true;
+    };
+    
+    const close = () => {
+        modal1.value = false;
+    };
 
     const slidesContainer = ref(null); // Ref to the slides container element
 

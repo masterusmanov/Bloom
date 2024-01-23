@@ -41,6 +41,17 @@
             "two": "Your name",
             "three": "Phone number",
             "four": "Leave a request and we will contact you"
+        },
+        "modalTwo": {
+            "one": "Mirror Maze",
+            "two": "Render",
+            "three": "DESCRIPTION",
+            "four": "An innovative architectural project that represents a unique combination of art and functionality. The project embodies a labyrinth consisting of mirrored walls, creating the effect of infinity and visual expansion of space.",
+            "five": "SERVICE",
+            "six": "Architectural Engineering",
+            "seven": "SQUARE",
+            "eight": "LOCATION",
+            "nine": "CUSTOMER"
         }
     }
 }
