@@ -29,6 +29,12 @@
         "cardclient": {
             "one": "Oynali labirint",
             "two": "oyna devorlari bilan turar-joy majmuasi"
+        },
+        "serviceThree": "MIJOZLAR",
+        "cardclientTwo": "Juda uzoq mijoz kompaniyasi nomi",
+        "footer": {
+            "one": "Buyuk Ipak yo'li ko'chasi 154A",
+            "two": "Bloom Architecture - Barcha huquqlar himoyalangan"
         }
     }
 }

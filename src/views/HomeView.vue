@@ -5,6 +5,9 @@ import SectionThree from '../components/SectionOne/SectionThree.vue'
 import SectionFour from '../components/SectionOne/SectionFour.vue'
 import CardClient from '../components/CardClient/CardClient.vue';
 import SectionFive from '../components/SectionOne/SectionFive.vue';
+import CardClientTwo from '../components/CardClient/CardClientTwo.vue'
+import Footer from '../components/Footer/Footer.vue';
+
 </script>
 
 <template>
@@ -18,5 +21,7 @@ import SectionFive from '../components/SectionOne/SectionFive.vue';
     <CardClient/>
     <img src="../assets/images/background/Group2.svg" alt="" class="absolute w-[70%] lg:w-[50%] mt-[50px] ml-[15%] lg:ml-[25%] lg:mt-[150px] 2xl:mt-[200px]">
     <SectionFive/>
+    <CardClientTwo/>
+    <Footer/>
   </main>
 </template>

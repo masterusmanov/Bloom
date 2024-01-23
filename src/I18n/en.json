@@ -29,6 +29,12 @@
         "cardclient": {
             "one": "Mirror Maze",
             "two": "residential complex with mirror walls"
+        },
+        "serviceThree": "CLIENTS",
+        "cardclientTwo": "Very long client company name",
+        "footer": {
+            "one": "st. Buyuk Ipak Yuli, 154A",
+            "two": "Bloom Architecture- All rights reserved"
         }
     }
 }
