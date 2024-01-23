@@ -35,6 +35,12 @@
         "footer": {
             "one": "st. Buyuk Ipak Yuli, 154A",
             "two": "Bloom Architecture- All rights reserved"
+        },
+        "modalOne": {
+            "one": "Back call",
+            "two": "Your name",
+            "three": "Phone number",
+            "four": "Leave a request and we will contact you"
         }
     }
 }

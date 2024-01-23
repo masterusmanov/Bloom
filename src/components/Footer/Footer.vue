@@ -1,6 +1,6 @@
 <template>
     <footer class="mt-[156px] bg-black">
-        <div class="container ml-[30%] lg:w-[70%]">
+        <div class="container lg:ml-[30%] lg:w-[70%]">
             <div class="flex justify-between lg:justify-start lg:gap-[300px]">
                 <div class="p-4">
                     <img src="../../assets/images/Logo.png" alt="Logo" class="w-[26px]">
@@ -17,7 +17,7 @@
                     <p class="w-[92%] mx-4 font-[500] py-[10px] px-[20px] font-jost text-[#E3E7F2] text-[14px]">{{$t('translation.footer.one')}}</p>
                     <p class="w-[92%] mx-4 font-[500] py-[10px] px-[20px] font-jost text-[#E3E7F2] text-[14px]">info@bloom-arc@gmail.com</p>
                 </div>
-                <div class="my-[18px] text-[#808288] hidden lg:flex items-center justify-start px-4 gap-[30px] text-[26px] mt-[200px]">
+                <div class="my-[18px] text-[#808288] hidden lg:flex items-center justify-start px-4 gap-[30px] text-[26px] mt-[250px]">
                     <a href="#"><i class='bx bxl-instagram border p-[14px] hover:bg-black hover:text-[#E3E7F2]' ></i></a>
                     <a href="#"><i class='bx bxl-behance border p-[14px] hover:bg-black hover:text-[#E3E7F2]'></i></a>
                     <a href="#"><i class='bx bxl-facebook border p-[14px] hover:bg-black hover:text-[#E3E7F2]'></i></a>
