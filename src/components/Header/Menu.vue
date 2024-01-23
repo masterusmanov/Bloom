@@ -34,6 +34,11 @@
                     <a href="#"><i class='bx bxl-facebook border p-[14px] hover:bg-black hover:text-[#E3E7F2]'></i></a>
                     <a href="#"><i class='bx bxl-vk border p-[14px] hover:bg-black hover:text-[#E3E7F2]'></i></a>
                 </li>
+                <div class="flex gap-[16px] text-[20px] text-[#595A5E] mt-[30px]">
+                    <a data-lang="en" @click="changeLanguage" class="hover:text-[#E3E7F2] cursor-pointer">EN</a>
+                    <a data-lang="ru" @click="changeLanguage" class="hover:text-[#E3E7F2] cursor-pointer">RU</a>
+                    <a data-lang="uz" @click="changeLanguage" class="hover:text-[#E3E7F2] cursor-pointer">UZ</a>
+                </div>
             </ul>
         </div>
     </div>
@@ -41,6 +46,16 @@
 
 <script setup>
 import { defineEmits } from 'vue';
+import { useI18n } from 'vue-i18n';
+    
+    const {t} = useI18n({useScope: 'global'});
+
+    function changeLanguage(event) {
+        const selectedLanguage = event.target.getAttribute('data-lang');
+        console.log(selectedLanguage);
+        localStorage.setItem("lang", selectedLanguage)
+        window.location.reload()
+    }
 
 const emit = defineEmits(['close']);
 function emitClose() {

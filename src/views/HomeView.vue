@@ -28,7 +28,7 @@
     <div class="container mx-auto">
       <SectionOne class=""/>
       <SectionTwo/>
-      <img src="../assets/images/background/service.png" alt="" class="absolute w-[125px] lg:w-[250px] xl:w-[400px] mt-[50px] ml-[170px] lg:ml-[700px] lg:mt-[150px] xl:ml-[800px] 2xl:ml-[1000px] 2xl:mt-[250px]">
+      <img src="../assets/images/background/service.png" alt="" class="absolute w-[100px] lg:w-[220px] xl:w-[300px] mt-[70px] ml-[190px] lg:ml-[750px] lg:mt-[150px] xl:ml-[900px] 2xl:ml-[1100px] 2xl:mt-[250px]">
       <SectionThree/>
       <img src="../assets/images/background/plan.svg" alt="" class="absolute w-[197px] lg:w-[704px] mx-[65px] lg:mx-[170px] xl:mx-[300px] 2xl:mx-[400px] mt-[50px] lg:mt-[150px] 2xl:mt-[200px]">
       <SectionFour/>

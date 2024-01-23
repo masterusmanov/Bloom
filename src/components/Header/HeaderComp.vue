@@ -9,11 +9,11 @@
                 <a href="#services" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.two')}}</a>
                 <a href="#portfolio" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.three')}}</a>
                 <a href="#client" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.four')}}</a>
-                <a href="#contact" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.five')}}</a>
+                <a href="#contact" class="text-[#808288] hover:text-[#E3E7F2]">{{$t('translation.navbar.five')}}</a>                
                 <div class="flex gap-[16px] text-[20px] text-[#595A5E] mt-[30px]">
-                    <option value="en" class="hover:text-[#E3E7F2]">EN</option>
-                    <option value="ru" class="hover:text-[#E3E7F2]">RU</option>
-                    <option value="uz" class="hover:text-[#E3E7F2]">UZ</option>
+                    <a data-lang="en" @click="changeLanguage" class="hover:text-[#E3E7F2] cursor-pointer">EN</a>
+                    <a data-lang="ru" @click="changeLanguage" class="hover:text-[#E3E7F2] cursor-pointer">RU</a>
+                    <a data-lang="uz" @click="changeLanguage" class="hover:text-[#E3E7F2] cursor-pointer">UZ</a>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
     const {t} = useI18n({useScope: 'global'});
 
     function changeLanguage(event) {
-        const selectedLanguage = event.target.value;
+        const selectedLanguage = event.target.getAttribute('data-lang');
         console.log(selectedLanguage);
         localStorage.setItem("lang", selectedLanguage)
         window.location.reload()

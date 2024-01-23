@@ -6,28 +6,28 @@
       </div> -->
     
       <div class="items ">
-        <div class="entry w-[200px] lg:w-[450px] xl:w-[700px]">
+        <div class="entry w-[200px] lg:w-[500px] xl:w-[750px]">
           <h1 class="text-[#E3E7F2] font-jost font-[600] text-[50px] lg:text-[100px] xl:text-[150px]">{{ $t('translation.service') }}</h1>
         </div>
-        <div class="entry w-[200px] lg:w-[450px] xl:w-[700px]">
+        <div class="entry w-[200px] lg:w-[500px] xl:w-[750px]">
           <h1 class="text-[#E3E7F2] font-jost font-[600] text-[50px] lg:text-[100px] xl:text-[150px]">{{ $t('translation.service') }}</h1>
         </div>
-        <div class="entry w-[200px] lg:w-[450px] xl:w-[700px]">
+        <div class="entry w-[200px] lg:w-[500px] xl:w-[750px]">
           <h1 class="text-[#E3E7F2] font-jost font-[600] text-[50px] lg:text-[100px] xl:text-[150px]">{{ $t('translation.service') }}</h1>
         </div>
-        <div class="entry w-[200px] lg:w-[450px] xl:w-[700px]">
+        <div class="entry w-[200px] lg:w-[500px] xl:w-[750px]">
           <h1 class="text-[#E3E7F2] font-jost font-[600] text-[50px] lg:text-[100px] xl:text-[150px]">{{ $t('translation.service') }}</h1>
         </div>
-        <div class="entry w-[200px] lg:w-[450px] xl:w-[700px]">
+        <div class="entry w-[200px] lg:w-[500px] xl:w-[750px]">
           <h1 class="text-[#E3E7F2] font-jost font-[600] text-[50px] lg:text-[100px] xl:text-[150px]">{{ $t('translation.service') }}</h1>
         </div>
-        <div class="entry w-[200px] lg:w-[450px] xl:w-[700px]">
+        <div class="entry w-[200px] lg:w-[500px] xl:w-[750px]">
           <h1 class="text-[#E3E7F2] font-jost font-[600] text-[50px] lg:text-[100px] xl:text-[150px]">{{ $t('translation.service') }}</h1>
         </div>
-        <div class="entry w-[200px] lg:w-[450px] xl:w-[700px]">
+        <div class="entry w-[200px] lg:w-[500px] xl:w-[750px]">
           <h1 class="text-[#E3E7F2] font-jost font-[600] text-[50px] lg:text-[100px] xl:text-[150px]">{{ $t('translation.service') }}</h1>
         </div>
-        <div class="entry w-[200px] lg:w-[450px] xl:w-[700px]">
+        <div class="entry w-[200px] lg:w-[500px] xl:w-[750px]">
           <h1 class="text-[#E3E7F2] font-jost font-[600] text-[50px] lg:text-[100px] xl:text-[150px]">{{ $t('translation.service') }}</h1>
         </div>
       </div>
