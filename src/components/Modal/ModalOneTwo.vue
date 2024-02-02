@@ -5,7 +5,7 @@
                 <div class="w-[85%] flex items-center gap-2 md:w-[40%]">
                     <h2 class="text-[#E3E7F2] text-[24px] font-[600] font-jost">{{ $t('translation.modalTwo.one') }}</h2>
                  </div>
-                <div @click="emitClose" class="ml-[25px]">
+                <div @click="emitClose" class="ml-[25px] border hover:rounded-b-full hover:rounded-tl-full flex items-center">
                     <i class='bx bx-x text-[#E3E7F2] text-[36px]'></i>
                 </div>
             </div> 

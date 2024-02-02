@@ -5,7 +5,7 @@
                 <div class="w-[85%] flex items-center gap-2 md:w-[40%]">
                    <img src="../../assets/images/Logo.png" alt="Logo" class="w-[25px]">
                 </div>
-                <div @click="emitClose" class="ml-[25px]">
+                <div @click="emitClose" class="ml-[25px] border flex items-center hover:rounded-b-full hover:rounded-tl-full">
                     <i class='bx bx-x text-[#E3E7F2] text-[36px]'></i>
                 </div>
             </div>
@@ -29,10 +29,10 @@
                     <p class="w-[92%] mx-4 font-[500] py-[10px] px-[20px] font-rubik text-[#E3E7F2] text-[20px]">+998 (90) 985 64 89</p>
                 </li>
                 <li class="my-[18px] text-[#808288] flex items-center justify-center gap-[20px] text-[26px]">
-                    <a href="#"><i class='bx bxl-instagram border p-[14px] hover:bg-black hover:text-[#E3E7F2]' ></i></a>
-                    <a href="#"><i class='bx bxl-behance border p-[14px] hover:bg-black hover:text-[#E3E7F2]'></i></a>
-                    <a href="#"><i class='bx bxl-facebook border p-[14px] hover:bg-black hover:text-[#E3E7F2]'></i></a>
-                    <a href="#"><i class='bx bxl-vk border p-[14px] hover:bg-black hover:text-[#E3E7F2]'></i></a>
+                    <a href="#"><i class='bx bxl-instagram border p-[14px] hover:bg-black hover:text-[#E3E7F2] group hover:rounded-b-full hover:rounded-tl-full' ></i></a>
+                    <a href="#"><i class='bx bxl-behance border p-[14px] hover:bg-black hover:text-[#E3E7F2] group hover:rounded-b-full hover:rounded-tl-full'></i></a>
+                    <a href="#"><i class='bx bxl-facebook border p-[14px] hover:bg-black hover:text-[#E3E7F2] group hover:rounded-b-full hover:rounded-tl-full'></i></a>
+                    <a href="#"><i class='bx bxl-vk border p-[14px] hover:bg-black hover:text-[#E3E7F2] group hover:rounded-b-full hover:rounded-tl-full'></i></a>
                 </li>
                 <div class="flex gap-[16px] text-[20px] text-[#595A5E] mt-[30px]">
                     <a data-lang="en" @click="changeLanguage" class="hover:text-[#E3E7F2] cursor-pointer">EN</a>
