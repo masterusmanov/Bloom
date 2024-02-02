@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body{
   background-color: #141413;
   overflow-x: hidden;
-  cursor: url('./images/inst.png'), auto;
+  cursor: url('./images/cursor.svg'), auto;
 }
 
 .dropbtn {

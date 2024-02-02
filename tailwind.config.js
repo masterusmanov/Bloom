@@ -8,7 +8,7 @@ export default {
     extend: {
       fontFamily: {
         jost: ['Jost', 'sans-serif'],
-    },
+      },
     },
   },
   plugins: [],
