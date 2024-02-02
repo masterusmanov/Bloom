@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="hover:text-center">
         <div class="float-right w-[50%] ml-[50px] lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
             <path d="M25.189 11.7936C25.2556 13.8304 26.264 15.3555 27.2012 16.1485L27.9047 15.317C27.1731 14.6979 26.333 13.4502 26.2777 11.758C26.2228 10.0811 26.7143 8.09914 29.2559 5.55751L28.4857 4.7873C25.944 7.32896 23.9621 7.82035 22.2852 7.76552C20.5929 7.71017 19.3453 6.87009 18.7262 6.13844L17.8947 6.84202C18.6877 7.77915 20.2128 8.78756 22.2496 8.85417C23.0473 8.88026 23.9097 8.76164 24.8244 8.44857L4.8318 28.4412L5.602 29.2114L25.5946 9.21878C25.2815 10.1334 25.1629 10.9959 25.189 11.7936Z" fill="#E3E7F2"/>
@@ -11,8 +11,8 @@
           </svg>
         </div>
         <div class="grid gap-1 lg:gap-0 mt-[16px]">
-          <p class="text-[#E3E7F2] text-[14px] lg:text-[30px] font-jost proportional-nums leading-[14px] lg:w-[50%]">{{$t('translation.modal.one')}}</p>
-          <p class="text-[#E3E7F2] text-[14px] lg:text-[30px] font-jost proportional-nums leading-[14px] lg:w-[50%]">{{$t('translation.modal.two')}}</p>
+          <p class="text-[#E3E7F2] text-[14px] lg:text-[30px] font-jost proportional-nums leading-[14px] lg:w-[100%]">{{$t('translation.modal.one')}}</p>
+          <p class="text-[#E3E7F2] text-[14px] lg:text-[30px] font-jost proportional-nums leading-[14px] lg:w-[100%]">{{$t('translation.modal.two')}}</p>
         </div>
       </div>
 </template>

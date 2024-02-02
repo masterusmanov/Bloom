@@ -37,7 +37,7 @@
       <SectionFive/>
       <CardClientTwo/>
       <div @click="open1">
-        <Modal class="absolute w-[100px] lg:w-[210px] xl:w-[250px] lg:h-[210px] xl:h-[250px] border grid justify-between p-[8px] lg:p-[16px] mt-[125px] ml-[200px] bg-black border-[#E3E7F2] cursor-pointer lg:mt-[100px] xl:ml-[1000px] 2xl:ml-[1200px]"/>
+        <Modal class="absolute w-[100px] lg:w-[210px] xl:w-[250px] lg:h-[210px] xl:h-[250px] border grid justify-between p-[8px] lg:p-[16px] mt-[125px] ml-[200px] bg-black border-[#E3E7F2] cursor-pointer lg:mt-[100px] xl:ml-[1000px] 2xl:ml-[1200px] hover:rounded-b-full hover:rounded-tl-full"/>
       </div>
       <ModalOne  @close="close2" v-if="modal2"/>
       <Footer/>

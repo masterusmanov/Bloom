@@ -4,12 +4,12 @@
         <div class="flex justify-end p-4 items-center gap-4 md:gap-0 my-[32px] md:my-[56px] xl:my-[48px] xl:mr-[60px] 2xl:mr-[60px]">
             <div class="md:w-[10%] lg:w-[10%] xl:w-[8%] 2xl:w-[6%] flex items-center gap-[20px]">
                 <div class=" top-0 -left-4 h-full items-center ">
-                    <button @click="prevSlide" role="button" class="prev p-[15px] text-[#E3E7F2] border border-[#E3E7F2] hover:bg-[#E3E7F2] hover:text-white group" aria-label="prev">
+                    <button @click="prevSlide" role="button" class="prev p-[15px] text-[#E3E7F2] border border-[#E3E7F2] hover:bg-[#E3E7F2] hover:text-black group hover:rounded-b-full hover:rounded-tr-full" aria-label="prev">
                         <i class='bx bx-left-arrow-alt text-[36px]'></i> 
                     </button>
                 </div>
                 <div class=" top-0 -right-4 h-full items-center">
-                    <button @click="nextSlide" role="button" class="next p-[15px] text-[#E3E7F2] border border-[#E3E7F2] hover:bg-[#E3E7F2] hover:text-white group" aria-label="next">
+                    <button @click="nextSlide" role="button" class="next p-[15px] text-[#E3E7F2] border border-[#E3E7F2] hover:bg-[#E3E7F2] hover:text-black group hover:rounded-b-full hover:rounded-tl-full" aria-label="next">
                         <i class='bx bx-right-arrow-alt text-[36px]' ></i>
                     </button>
                 </div>

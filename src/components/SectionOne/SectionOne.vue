@@ -1,7 +1,7 @@
 <template>
     <section id="about">
       <div @click="open1">
-        <Modal class="absolute w-[100px] lg:w-[210px] xl:w-[250px] lg:h-[210px] xl:h-[250px] border grid justify-between p-[8px] lg:p-[16px] mt-[270px]  ml-[50px] bg-black border-[#E3E7F2] cursor-pointer lg:mt-[320px] lg:ml-[280px] xl:mt-[320px] xl:ml-[400px] 2xl:mt-[400px] 2xl:ml-[565px]"/>
+        <Modal class="absolute w-[100px] lg:w-[210px] xl:w-[250px] lg:h-[210px] xl:h-[250px] border grid justify-between p-[8px] lg:p-[16px] mt-[270px] ml-[50px] bg-black border-[#E3E7F2] cursor-pointer lg:mt-[320px] lg:ml-[280px] xl:mt-[320px] xl:ml-[400px] 2xl:mt-[400px] 2xl:ml-[565px] hover:rounded-b-full hover:rounded-tl-full"/>
       </div>
       <ModalOne  @close="close2" v-if="modal2"/>
       <div class="container mx-auto hidden lg:flex ">
