@@ -44,80 +44,80 @@
 
 
 
-.container {
-  width: 100%;
-  position: relative;
-  overflow-x: hidden;
-}
-
-.items {
-  display: flex;
-  gap: 44px;
-  align-items: center;
-  width: fit-content;
-  width: max-content;
-  animation: carouselAnim 30s infinite alternate linear;
-  overflow-x: auto;
-}
-
-.entry {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  margin: 1em;
-  padding: 0.5em;
-}
-
-@media only screen and (max-width: 768px) {
-  .items {
-    animation: carouselAnim 20s infinite alternate linear;
-    overflow: hidden;
-  }
-
-  @keyframes carouselAnim {
-    from {
-      transform: translate(0, 0);
+    .container {
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
     }
-    to {
-      transform: translate(calc(-100% + (2 * 300px)));
+
+    .items {
+      display: flex;
+      gap: 44px;
+      align-items: center;
+      width: fit-content;
+      width: max-content;
+      animation: carouselAnim 30s infinite alternate linear;
+      overflow-x: auto;
     }
-  }
-}
 
-.entry p {
-  text-align: center;
-  padding: 1em;
-}
+    .entry {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      margin: 1em;
+      padding: 0.5em;
+    }
 
-.name {
-  font-weight: bold;
-}
+    @media only screen and (max-width: 768px) {
+      .items {
+        animation: carouselAnim 20s infinite alternate linear;
+        overflow: hidden;
+      }
 
-@keyframes carouselAnim {
-  from {
-    transform: translate(0, 0);
-  }
-  to {
-    transform: translate(calc(-100% + (5 * 300px)));
-  }
-}
+      @keyframes carouselAnim {
+        from {
+          transform: translate(0, 0);
+        }
+        to {
+          transform: translate(calc(-100% + (2 * 300px)));
+        }
+      }
+    }
 
-.container .faders {
-  width: 100%;
-  position: absolute;
-  height: 100%;
-}
+    .entry p {
+      text-align: center;
+      padding: 1em;
+    }
 
-.faders .right,
-.faders .left {
-  width: 15%;
-  height: 100%;
-  position: absolute;
-  z-index: 200;
-}
+    .name {
+      font-weight: bold;
+    }
 
-.right {
-  right: 0;
-}
-    </style>
+    @keyframes carouselAnim {
+      from {
+        transform: translate(0, 0);
+      }
+      to {
+        transform: translate(calc(-100% + (5 * 300px)));
+      }
+    }
+
+    .container .faders {
+      width: 100%;
+      position: absolute;
+      height: 100%;
+    }
+
+    .faders .right,
+    .faders .left {
+      width: 15%;
+      height: 100%;
+      position: absolute;
+      z-index: 200;
+    }
+
+    .right {
+      right: 0;
+    }
+</style>
